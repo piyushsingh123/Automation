@@ -20,7 +20,8 @@ public class BaseClass
 		
 		if (browser.equals("chrome") || browser.equals("CHROME")) 
 		{
-			System.setProperty("webdriver.chrome.driver","/Users/piyush.singh2/Downloads/chrome/chromedriver");
+			//System.setProperty("webdriver.chrome.driver","/Users/piyush.singh2/Downloads/chrome/chromedriver");
+			System.setProperty("webdriver.chrome.driver","src/main/java/com/dazzler/drivers/chromedriver");
 			driver = new ChromeDriver();
 			driver.manage().window().maximize();
 			return driver;

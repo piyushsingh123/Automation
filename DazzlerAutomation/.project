@@ -20,4 +20,11 @@
 		<nature>org.eclipse.jdt.core.javanature</nature>
 		<nature>org.eclipse.m2e.core.maven2Nature</nature>
 	</natures>
+	<linkedResources>
+		<link>
+			<name>src/main/java/com/dazzler/drivers/chromedriver</name>
+			<type>1</type>
+			<location>/Users/piyush.singh2/Downloads/chrome/chromedriver</location>
+		</link>
+	</linkedResources>
 </projectDescription>
